@@ -9,7 +9,6 @@ def DEFAULT_ANDROID_MAPS_UTILS_VERSION      = "0.5+"
 
 android {
   compileSdkVersion rootProject.hasProperty('compileSdkVersion') ? rootProject.compileSdkVersion : DEFAULT_COMPILE_SDK_VERSION
-  buildToolsVersion rootProject.hasProperty('buildToolsVersion') ? rootProject.buildToolsVersion : DEFAULT_BUILD_TOOLS_VERSION
 
   defaultConfig {
     minSdkVersion 16
